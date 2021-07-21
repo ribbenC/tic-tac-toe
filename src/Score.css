@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@300&display=swap');
+
+.Score {
+    margin-top: 50px;
+    width: 40px;
+    height: 480px;
+    border: 10px double black;
+    position: absolute;
+    right: 1px;
+    display: grid;
+    grid-template-rows: repeat(12, 40px);
+}
+
+.result {
+    font-family: 'Tourney', cursive;
+    text-align: center;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid inherit;
+}
+.btn-reset{
+    position: absolute;
+    top:520px;
+    right: 1px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border: 10px double black;
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.btn-reset:hover{
+    box-shadow: 4px 4px 8px 6px rgba(34, 60, 80, 0.12);
+}
+.btn-switch{
+    position: absolute;
+    top:520px;
+    right: 1px;
+    height: 30px;
+    width: 100px;
+    color: black;
+    border: 10px double black;
+    text-align: center;
+    font-family: 'Tourney', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
